@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AdoAuctions.Models
+{
+    public class ApplicationUser
+    {
+        public string Id { get; set; }
+        public string Email { get; set; }
+        public bool IsActivatedAccount { get; set; }
+        public int FailedSigninCount { get; set; }
+        public bool IsBlockedBySystem { get; set; }
+        public DateTime CreationDate { get; set; }
+    }
+}
