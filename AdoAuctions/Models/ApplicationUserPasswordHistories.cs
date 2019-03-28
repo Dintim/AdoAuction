@@ -8,10 +8,10 @@ namespace AdoAuctions.Models
 {
     public class ApplicationUserPasswordHistories
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string ApplicationUserId { get; set; }
-        public DateTime SetupDate { get; set; }
-        public DateTime InvalidatedDate { get; set; }
+        public string SetupDate { get; set; }
+        public string InvalidatedDate { get; set; }
         public string PasswordHash { get; set; }
     }
 }

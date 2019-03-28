@@ -13,7 +13,7 @@ namespace AdoAuctions.Models
         public string LastName { get; set; }
         public string MiddleName { get; set; }
         public string Email { get; set; }
-        public DateTime DoB { get; set; }
+        public string DoB { get; set; }
         public string OrganizationId { get; set; }
     }
 }

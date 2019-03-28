@@ -12,6 +12,6 @@ namespace AdoAuctions.Models
         public string FullName { get; set; }
         public string IdentificationNumber { get; set; }
         public string RegistrationDate { get; set; }
-        public int OrganizationTypeId { get; set; }
+        public string OrganizationTypeId { get; set; }
     }
 }

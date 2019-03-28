@@ -13,6 +13,7 @@ namespace AdoAuctions.Models
         public bool IsActivatedAccount { get; set; }
         public int FailedSigninCount { get; set; }
         public bool IsBlockedBySystem { get; set; }
-        public DateTime CreationDate { get; set; }
+        public string AssociatedEmployeeId { get; set; }
+        public string CreationDate { get; set; }
     }
 }

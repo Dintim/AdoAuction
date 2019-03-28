@@ -10,7 +10,7 @@ namespace AdoAuctions.ViewModels
     {
         public string OrganizationFullName { get; set; }
         public string OrganizationIdentificationNumber { get; set; }
-        public int OrganizationTypeId { get; set; }
+        public string OrganizationTypeId { get; set; }
         public string CeoFirstName { get; set; }
         public string CeoLastName { get; set; }
         public string CeoMiddleName { get; set; }
